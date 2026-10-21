@@ -1,0 +1,12 @@
+import cv2
+img=cv2.imread("kobe/kobe.png")
+gaussian=cv2.GaussianBlur(img,(5,5),0)
+median=cv2.medianBlur(img,5)
+mean=cv2.blur(img,(5,5))
+box=cv2.boxFilter(img,-1,(5,5),0)
+cv2.imwrite("median.png",median)
+cv2.imwrite("mean.png",mean)
+cv2.imwrite("box.png",box)
+cv2.imwrite("gauss.png",gaussian)
+mixed=cv2.GaussianBlur(mean,(5,5),0)
+cv2.imwrite("kobe/mixed.png",mixed)
