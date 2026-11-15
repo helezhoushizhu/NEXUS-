@@ -1,0 +1,27 @@
+[0.438s] Invoking command in '/home/lyp/NEXUS/week3/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/lyp/NEXUS/week3/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lyp/NEXUS/week3/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/lyp/NEXUS/week3/ros2_ws/build/my_py_pkg/build install --record /home/lyp/NEXUS/week3/ros2_ws/build/my_py_pkg/install.log --install-scripts $base/lib/my_py_pkg --single-version-externally-managed install_data
+[0.553s] running egg_info
+[0.554s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[0.554s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[0.554s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[0.554s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[0.554s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[0.556s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.556s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.556s] running build
+[0.557s] running build_py
+[0.557s] copying my_py_pkg/subscriber.py -> /home/lyp/NEXUS/week3/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.557s] copying my_py_pkg/publisher.py -> /home/lyp/NEXUS/week3/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.557s] running install
+[0.557s] running install_lib
+[0.557s] copying /home/lyp/NEXUS/week3/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/subscriber.py -> /home/lyp/NEXUS/week3/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.557s] copying /home/lyp/NEXUS/week3/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/publisher.py -> /home/lyp/NEXUS/week3/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.557s] byte-compiling /home/lyp/NEXUS/week3/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/subscriber.py to subscriber.cpython-310.pyc
+[0.560s] byte-compiling /home/lyp/NEXUS/week3/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/publisher.py to publisher.cpython-310.pyc
+[0.560s] running install_data
+[0.560s] running install_egg_info
+[0.560s] removing '/home/lyp/NEXUS/week3/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.569s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/lyp/NEXUS/week3/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[0.570s] running install_scripts
+[0.580s] Installing hello_node script to /home/lyp/NEXUS/week3/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.580s] writing list of installed files to '/home/lyp/NEXUS/week3/ros2_ws/build/my_py_pkg/install.log'
+[0.592s] Invoked command in '/home/lyp/NEXUS/week3/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/lyp/NEXUS/week3/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lyp/NEXUS/week3/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/lyp/NEXUS/week3/ros2_ws/build/my_py_pkg/build install --record /home/lyp/NEXUS/week3/ros2_ws/build/my_py_pkg/install.log --install-scripts $base/lib/my_py_pkg --single-version-externally-managed install_data
